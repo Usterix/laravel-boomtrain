@@ -19,13 +19,13 @@ class BoomtrainServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('boomtrain', function ($app) {
+        $this->app->bind('Usterix\Boomtrain\Boomtrain', function ($app) {
 
             $boomtrain = Boomtrain::init();
 
             return $boomtrain;
         });
     }
-    
+
 
 }
