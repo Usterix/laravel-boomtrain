@@ -1,0 +1,20 @@
+{
+  "name": "usterix/laravel-boomtrain",
+  "type": "sdk",
+  "description": "Boomtrain PHP SDK",
+  "homepage": "https://github.com/Usterix/boomtrain",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Usterix",
+      "email": "info@usterix.com",
+      "homepage": "https://usterix.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Usterix\\Boomtrain\\": "src"
+    }
+  }
+}
