@@ -1,16 +1,10 @@
 <?php
-namespace Usterix\Boomtrain;
+namespace Usterix\LaravelBoomtrain;
 
 use Illuminate\Support\ServiceProvider;
 
 class BoomtrainServiceProvider extends ServiceProvider
 {
-    /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var bool
-     */
-    protected $defer = true;
 
     /**
      * Register the service provider.
@@ -19,12 +13,13 @@ class BoomtrainServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('Usterix\Boomtrain\Boomtrain', function ($app) {
+        $this->app->bind('Usterix\LaravelBoomtrain\Boomtrain', function ($app) {
 
-            $boomtrain = Boomtrain::init();
+            $boomtrain = new Boomtrain();
 
             return $boomtrain;
         });
+        $this->app->alias('Usterix\LaravelBoomtrain\Boomtrain','boomtrain');
     }
 
 

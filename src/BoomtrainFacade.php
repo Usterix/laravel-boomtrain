@@ -1,4 +1,4 @@
-<?php namespace Usterix\Boomtrain;
+<?php namespace Usterix\LaravelBoomtrain;
 
 use Illuminate\Support\Facades\Facade;
 

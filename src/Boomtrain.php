@@ -1,5 +1,5 @@
 <?php
-namespace Usterix\Boomtrain;
+namespace Usterix\LaravelBoomtrain;
 
 class Boomtrain
 {

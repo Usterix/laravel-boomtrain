@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Usterix\\Boomtrain\\": "src"
+      "Usterix\\LaravelBoomtrain\\": "src"
     }
   },
   "repositories": [
