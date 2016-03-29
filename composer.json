@@ -2,7 +2,7 @@
   "name": "usterix/laravel-boomtrain",
   "type": "sdk",
   "description": "Boomtrain PHP SDK",
-  "homepage": "https://github.com/Usterix/boomtrain",
+  "homepage": "https://github.com/Usterix/laravel-boomtrain.git",
   "license": "MIT",
   "authors": [
     {
@@ -16,5 +16,11 @@
     "psr-4": {
       "Usterix\\Boomtrain\\": "src"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Usterix/laravel-boomtrain.git"
+    }
+  ]
 }
